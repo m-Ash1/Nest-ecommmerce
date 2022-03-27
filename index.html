@@ -5,20 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Style Sheet -->
-    <link rel="stylesheet" href="css/style.css" />
 
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
 
-    <!-- Javascript -->
-    <link rel="script" href="javascript/main.js" />
-    <title>Project-Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Nest - Mart & Grocery</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Upper Nav -->
+    <div class="upper-nav">
+      <div class="container">
+        <ul class="left">
+          <li>About Us<span class="sperator">|</span></li>
+          <li>My Account<span class="sperator">|</span></li>
+          <li>Wishlist<span class="sperator">|</span></li>
+          <li>Order Tracking</li>
+        </ul>
+
+        <div class="toggle">Super Value Deals - Save more with coupons</div>
+
+        <div class="right">
+          <div class="phone">Need help ? Call Us: <span>+ 1800 900</span></div>
+          <span class="sperator">|</span>
+          <div class="dropdown">
+            English <i class="fa-solid fa-chevron-down"></i>
+            <div class="drop">
+              <ul class="flags">
+                <li>
+                  <div class="image">
+                    <img src="images/flag-fr.png" alt="france flag" />
+                  </div>
+                  <span> Français </span>
+                </li>
+                <li>
+                  <div class="image">
+                    <img src="images/flag-dt.png" alt="german flag" />
+                  </div>
+                  <span>Deutsch</span>
+                </li>
+                <li>
+                  <div class="image">
+                    <img src="images/flag-ru.png" alt="russia flag" />
+                  </div>
+                  <span>Russian</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <span class="sperator">|</span>
+          <div class="dropdown">
+            USD <i class="fa-solid fa-chevron-down"></i>
+            <div class="drop">
+              <ul class="flags">
+                <li>
+                  <div class="image">
+                    <img src="images/flag-fr.png" alt="france flag" />
+                  </div>
+                  <span>INR</span>
+                </li>
+                <li>
+                  <div class="image">
+                    <img src="images/flag-dt.png" alt="german flag" />
+                  </div>
+                  <span>MBP</span>
+                </li>
+                <li>
+                  <div class="image">
+                    <img src="images/flag-ru.png" alt="russia flag" />
+                  </div>
+                  <span>EU</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Upper Nav -->
+
+    <!-- Nav -->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+        <div class="search">
+          <div class="search-left">
+            <div class="dropdown">
+              All Categories <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <span class="sperator">|</span>
+            <input type="text" placeholder="Search for items.." />
+          </div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i> Your Location
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="icons">
+          <div class="item">
+            <img src="images/icon-compare.svg" alt="icon-compare" />
+            Compare
+          </div>
+          <div class="item">
+            <img src="images/icon-heart.svg" alt="icon-heart" /> Wishlist
+          </div>
+          <div class="item">
+            <img src="images/icon-cart.svg" alt="icon-cart" /> Cart
+          </div>
+          <div class="item">
+            <img src="images/icon-user.svg" alt="icon-user" /> Account
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- Javascript -->
+    <script src="javascript/main.js"></script>
+  </body>
 </html>
