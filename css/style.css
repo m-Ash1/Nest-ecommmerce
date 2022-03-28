@@ -352,7 +352,7 @@ nav .icons .item:nth-child(3)::before {
 /* Start Section 1 Style */
 
 .section-1 {
-  background-image: url("/images/banner-12.png");
+  background-image: url("../images/banner-12.png");
   padding: 3em;
 }
 .section-1 .container {
@@ -367,7 +367,7 @@ nav .icons .item:nth-child(3)::before {
 
 .section-1 .card-1 {
   padding: 110px 70px 20px;
-  background: url("images/slider-3.png");
+  background: url("../images/slider-3.png");
   background-size: cover;
   grid-column: span 2;
 }
@@ -438,7 +438,7 @@ nav .icons .item:nth-child(3)::before {
 .section-1 .card-2 {
   border-radius: 15px !important;
   padding: 50px;
-  background: url("images/banner-11.png");
+  background: url("../images/banner-11.png");
   background-size: cover;
 }
 
