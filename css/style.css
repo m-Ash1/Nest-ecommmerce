@@ -282,6 +282,10 @@ nav .icons .item:nth-child(3)::before {
 .lower-nav {
   padding: 15px 0;
   border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 10;
 }
 .lower-nav .container {
   display: flex;
@@ -494,6 +498,11 @@ nav .icons .item:nth-child(3)::before {
   font-size: 24px;
   font-weight: bold;
   color: var(--heading-Color);
+  transition: 0.3s;
+}
+.box .text:hover {
+  margin-top: -5px;
+  margin-bottom: 5px;
 }
 .box.bx-1 {
   background-image: url("../images/banner-1.png");
@@ -529,12 +538,21 @@ nav .icons .item:nth-child(3)::before {
 }
 .section-3 .cn-1 .right-side ul {
   display: flex;
-  gap: 15px;
+  gap: 18px;
   font-weight: 600;
   color: var(--heading-Color);
 }
 .section-3 .cn-1 .right-side ul li:first-child {
   color: var(--hover-butten);
+}
+.section-3 .cn-1 .right-side ul li {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.section-3 .cn-1 .right-side ul li:hover {
+  color: var(--hover-butten);
+  margin-top: -3px;
+  margin-bottom: 3px;
 }
 
 .section-3 .cn-2 {
