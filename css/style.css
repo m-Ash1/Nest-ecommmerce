@@ -523,33 +523,36 @@ nav .icons .item:nth-child(3)::before {
 /* End Section 2 Style */
 
 /* Start Section 3 Style */
-.section-3 .cn-1 {
+.section-3 {
+  padding: 25px 0;
+}
+.cn-1 {
   display: flex;
   justify-content: space-between;
 }
-.section-3 .cn-1 .left-side {
+.cn-1 .left-side {
   font-size: 34px;
   font-weight: bold;
   color: var(--heading-Color);
 }
-.section-3 .cn-1 .right-side {
+.cn-1 .right-side {
   display: flex;
   align-items: center;
 }
-.section-3 .cn-1 .right-side ul {
+.cn-1 .right-side ul {
   display: flex;
   gap: 18px;
   font-weight: 600;
   color: var(--heading-Color);
 }
-.section-3 .cn-1 .right-side ul li:first-child {
+.cn-1 .right-side ul li:first-child {
   color: var(--hover-butten);
 }
-.section-3 .cn-1 .right-side ul li {
+.cn-1 .right-side ul li {
   transition: 0.3s;
   cursor: pointer;
 }
-.section-3 .cn-1 .right-side ul li:hover {
+.cn-1 .right-side ul li:hover {
   color: var(--hover-butten);
   margin-top: -3px;
   margin-bottom: 3px;
@@ -639,7 +642,7 @@ nav .icons .item:nth-child(3)::before {
 }
 .rating-box .product-rating {
   background-image: url("../images/rating-stars.png");
-  width: 24%;
+  width: 60px;
   height: 12px;
   background-position: 0px -12px;
   margin-bottom: 8px;
@@ -700,3 +703,74 @@ nav .icons .item:nth-child(3)::before {
 }
 
 /* End Section 3 Style */
+
+/* Start Section 4 Style */
+.section-4 {
+  padding: 50px 0;
+}
+.section-4 .cn-2 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+.section-4 .cn-2 .main-crd {
+  background-image: url("../images/banner-4.png");
+  background-size: cover;
+  border-radius: 8px;
+  padding: 50px;
+}
+.section-4 .cn-2 .main-crd .heading {
+  font-size: 38px;
+  font-weight: bolder;
+  color: var(--heading-Color);
+}
+.section-4 .cn-2 .main-crd .btn {
+  margin-top: 80px;
+}
+.section-4 .action {
+  margin-top: 16px;
+}
+.section-4 .progress-par {
+  margin-top: 15px;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #e9ecef;
+  margin-bottom: 8px;
+}
+.section-4 .progress-par .progress {
+  height: 100%;
+  width: 70%;
+  background-color: var(--main-color);
+}
+.section-4 .sold {
+  font-size: 13px;
+  opacity: 0.7;
+  font-weight: bold;
+  color: var(--heading-Color);
+}
+.section-4 .add {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  color: white;
+  margin-top: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.section-4 .add i {
+  margin-right: 6px;
+}
+.section-4 .add:hover {
+  background-color: #fdc040;
+  margin-top: 12px;
+}
+/* End Section 4 Style */
